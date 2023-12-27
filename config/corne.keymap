@@ -11,12 +11,6 @@
 
 / {
     macros {
-        showhideUI: showhideUI {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "SHOWHIDEUI";
-        };
     };
 
     keymap {
@@ -71,7 +65,7 @@
         };
 
         Figma {
-            label = "Design";
+            label = "Figma";
             bindings = <
 &kp ESC    &trans  &trans  &trans        &kp R   &kp T        &kp LC(BACKSLASH)  &kp LS(R)  &kp LC(O)             &kp LS(G)              &kp LA(LC(BACKSLASH))  &kp DEL
 &kp LSHFT  &kp A   &kp S   &trans        &kp F   &trans       &trans             &trans     &trans                &trans                 &trans                 &kp LA(F4)
