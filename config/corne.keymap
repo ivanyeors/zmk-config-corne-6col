@@ -64,8 +64,8 @@
             label = "Raise";
             bindings = <
 &trans  &kp EXCL      &kp AT      &kp HASH    &kp DLLR      &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_ASTERISK  &kp LPAR  &kp RPAR  &kp DEL
-&trans  &bt BT_CLR    &bt BT_PRV  &bt BT_NXT  &to 0         &to 3        &kp UNDER  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_TOG  &trans      &trans      &trans        &trans       &kp MINUS  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+&trans  &bt BT_CLR    &bt BT_PRV  &bt BT_NXT  &trans        &trans       &kp UNDER  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &out OUT_TOG  &trans      &trans      &trans        &to 3        &kp MINUS  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                                   &kp LGUI    &kp LEFT_ALT  &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
