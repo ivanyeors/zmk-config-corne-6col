@@ -73,10 +73,10 @@
         Figma {
             label = "Design";
             bindings = <
-&kp ESC  &trans  &trans  &trans  &trans  &trans       &kp LC(BACKSLASH)  &kp LS(R)  &kp LC(O)  &kp LS(G)  &kp LA(LC(BACKSLASH))  &kp DEL
-&to 0    &trans  &trans  &trans  &trans  &trans       &trans             &trans     &trans     &trans     &trans                 &kp LA(F4)
-&trans   &none   &trans  &none   &trans  &trans       &trans             &trans     &trans     &trans     &trans                 &to 0
-                         &trans  &trans  &kp SPACE    &kp LC(SLASH)      &trans     &trans
+&kp ESC    &trans  &trans  &trans        &kp R   &kp T        &kp LC(BACKSLASH)  &kp LS(R)  &kp LC(O)             &kp LS(G)              &kp LA(LC(BACKSLASH))  &kp DEL
+&kp LSHFT  &kp A   &kp S   &trans        &kp F   &trans       &trans             &trans     &trans                &trans                 &trans                 &kp LA(F4)
+&kp RCTRL  &none   &trans  &kp C         &kp V   &trans       &trans             &trans     &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &trans                 &to 0
+                           &kp LEFT_ALT  &trans  &kp SPACE    &kp LC(SLASH)      &trans     &trans
             >;
         };
     };
