@@ -67,10 +67,10 @@
         Figma {
             label = "Figma";
             bindings = <
-&kp ESC    &trans  &trans  &trans        &kp R   &kp T        &kp LC(BACKSLASH)  &kp LS(R)  &kp LC(O)             &kp LS(G)              &kp LA(LC(BACKSLASH))  &kp DEL
-&kp LSHFT  &kp A   &kp S   &trans        &kp F   &trans       &trans             &trans     &trans                &trans                 &trans                 &kp LA(F4)
-&kp RCTRL  &none   &trans  &kp C         &kp V   &trans       &trans             &trans     &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &trans                 &to 0
-                           &kp LEFT_ALT  &trans  &kp SPACE    &kp LC(SLASH)      &trans     &trans
+&kp ESC           &kp LC(G)  &kp LC(LS(G))  &kp LC(LA(G))  &kp R    &kp T        &kp LC(BACKSLASH)  &kp LS(R)      &kp LC(O)             &kp LS(G)              &kp LA(LC(BACKSLASH))  &kp DEL
+&kp LSHFT         &kp A      &kp S          &kp LC(D)      &kp F    &kp G        &kp LC(L)          &kp LC(LS(E))  &kp LC(LA(K))         &kp LA(LC(B))          &kp LC(LS(M))          &kp P
+&kp LEFT_CONTROL  &kp LC(Z)  &kp LC(X)      &kp C          &kp V    &trans       &kp LC(LS(H))      &kp LC(LS(L))  &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &kp LC(LA(T))          &to 0
+                                            &kp LEFT_ALT   &kp TAB  &kp SPACE    &kp ENTER          &kp LA(LS(A))  &kp LC(SLASH)
             >;
         };
     };
